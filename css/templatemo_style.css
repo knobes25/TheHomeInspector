@@ -379,8 +379,23 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .txt_slogan {
-    font-size:14px; 
+    font-size:20px; 
     color:#929292;
+}
+
+.location {
+    font-size: 30px;
+}
+
+.bio_background {
+    background-color:  rgba(255, 255, 255, .4);
+    margin-left: 285px;
+}
+
+.bio {
+    font-size: 15px;
+    font-style: italic;
+    color: black;
 }
 
 .templatemo-line-header span {
