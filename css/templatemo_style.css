@@ -85,16 +85,19 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     left: 0;
     top: 0;
 }
+.carousel-background {
+    background-color:  rgba(0, 0, 0, .4);
+}
 
 @media (min-width: 768px) {
     #templatemo-carousel .carousel-caption p {
-        margin-bottom: 20px;
+        margin-bottom: 0px;
         line-height: 1.4;
         font-size: 21px;
     }
 
     #templatemo-carousel .carousel-caption {
-        padding-bottom: 140px;
+        padding-bottom: 80px;
         right: 20%;
         left: 20%;
     }
@@ -427,6 +430,10 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     text-align: justify; 
     font-size: 14px; 
     margin-top: 20px;
+}
+
+.request_input {
+    padding-right:40vw; 
 }
 
 #templatemo-contact {
