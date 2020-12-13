@@ -4720,8 +4720,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
   color: #777777;
 }
 
+/* ------ Navbar size and color ----- */
 .navbar-default .navbar-nav > li > a {
-  color: #777777;
+  color: #000000;
+  font-size: 14px;
 }
 
 .navbar-default .navbar-nav > li > a:hover,

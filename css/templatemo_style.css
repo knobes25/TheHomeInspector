@@ -86,7 +86,8 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     top: 0;
 }
 .carousel-background {
-    background-color:  rgba(0, 0, 0, .4);
+    background-color:  rgba(0, 0, 0, .5);
+    margin-bottom: 50px;
 }
 
 @media (min-width: 768px) {
@@ -151,7 +152,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 
 .templatemo-service-item p {
-    font-weight: lighter; 
+    font-weight: bolder; 
     text-align: justify; 
     margin-top: 25px;
     font-size: 14px;
@@ -232,7 +233,6 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .templatemo-service-item-header {
-    margin-left: -10px; 
     padding: 16px 20px 20px; 
     font-weight: bold;
     display: inline-block;
@@ -243,7 +243,24 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     min-width: 298px;
     height: 67px;
     color: #fff; 
+}
 
+.stars {
+    width: 200px;
+   padding-top: 20px;
+    margin-bottom: -8px;
+}
+
+.calendar {
+    width:60px;
+    height: 70px;
+    padding-bottom: 10px;
+    margin-bottom: -20px;
+}
+
+.inspector {
+    height: 70px;
+    margin-bottom: -18px;
 }
 
 .team_hr {
@@ -266,12 +283,11 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .templatemo-team {
-    background: url('../images/yakima_landscape.jpg') ; 
+    background-color: #333333;
     font-family:  'Open Sans', sans-serif;
     min-height:590px;
     background-size: cover;
     color:#ffffff;
-
 }
 .templatemo-line-header {
     margin-top:100px;
@@ -325,8 +341,8 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .row_team {
-    margin-left:-50px;
-    margin-top:70px;
+    margin-left:-100px;
+    margin-top:30px;
 }
 
 .row_team li {
@@ -382,8 +398,8 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .txt_slogan {
-    font-size:20px; 
-    color:#929292;
+    font-size:30px; 
+    color:#000000;
 }
 
 .location {
@@ -391,14 +407,15 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .bio_background {
-    background-color:  rgba(255, 255, 255, .4);
-    margin-left: 285px;
+   /* background-color:  rgba(245, 245, 245, .9);*/
+    margin-left: 17.3vw;
+    margin-right: -vw;;
 }
 
 .bio {
-    font-size: 15px;
-    font-style: italic;
-    color: black;
+    font-size: 18px;
+    font-style: normal;
+    color: #ffffff;
 }
 
 .templatemo-line-header span {
@@ -413,7 +430,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .span_blog {
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }
 
 .blog_post {
@@ -434,6 +451,9 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 .request_input {
     padding-right:40vw; 
+}
+.request_address {
+    padding-right: 25vw;
 }
 
 #templatemo-contact {
